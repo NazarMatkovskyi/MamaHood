@@ -12,7 +12,7 @@
 .header-block {
   margin-left: 50px;
   margin-top: 20px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .header__title {
@@ -62,14 +62,17 @@
 
 .header_elipse_1 {
   position: absolute;
-  left: 30%;
-  top: 70%;
+  left: 31%;
+  top: 77%;
+ z-index: -8;
+ 
 }
 
 .header_elipse_2 {
   position: absolute;
   right: 0;
-  top: 20%;
+  top: 15%;
+  z-index: -5;
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -7,9 +7,12 @@ import headerEllipsTwo from './headerEllipsTwo.png'
 const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,img1 }) => {
   return (
     <div className="header">
+      <div className="header-ellipse">
       <img className="header_elipse_1"  src={headerEllipsOne} alt="headerEllipsOne" />
-      <img className="header_elipse_2" src={headerEllipsTwo} alt={headerEllipsTwo} />
-      <div className=" container header-block">
+      <img className="header_elipse_2" src={headerEllipsTwo} alt='headerEllipsTwo' />
+     
+      </div>
+       <div className=" container header-block">
         <div className="header__title">{title}</div>
         <div className="header__text">
           <p className="header__text-one">{description}</p>

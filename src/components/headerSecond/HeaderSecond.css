@@ -7,12 +7,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 110px;
 }
 .img-header_second {
   width: 485px;
   height: 560px;
-  margin-left: 60px;
+  margin-left: -50px;
 }
 .header-second_block {
   color: #2e3a59;
@@ -21,7 +21,7 @@
   width: 533px;
   height: 500px;
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-family: Montserrat;
   line-height: 120%;
 }
@@ -39,6 +39,68 @@
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 10px;
+}
+.ellipse-one{
+  position: absolute;
+  left: 0;
+  top: 112%;
+  z-index: -1;
+}
+
+.ellipse-two{
+  position: absolute;
+  left: 0;
+  top: 120%;
+  z-index: -2;
+}
+.ellipse-three{
+  position: absolute;
+  left: 0;
+  top: 140%;
+  z-index: -3;
+}
+.ellipse-four{
+  position: absolute;
+  left: 0;
+  top: 200%;
+  z-index: -4;
+}
+.ellipse-five{
+  position: absolute;
+  right:12% ;
+  top: 117%;
+  z-index: -5;
+ 
+}
+.ellipse-six{
+  position: absolute;
+  right: 7%;
+  top: 113%;
+  z-index: -6;
+}
+.ellipse-seven{
+  position: absolute;
+  right: 2%;
+  top: 120%;
+  z-index: -7;
+}
+.ellipse-eight{
+  position: absolute;
+  right: 0;
+  top: 176%;
+  z-index: -8;
+}
+.ellipse-nine{
+  position: absolute;
+  right: 0;
+  top: 186%;
+  z-index: -9;
+}
+.ellipse-ten{
+  position: absolute;
+  right: 5%;
+  top: 199%;
+  z-index: -10;
 }
 
 

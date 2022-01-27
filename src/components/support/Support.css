@@ -1,13 +1,13 @@
-.support{
-  padding-bottom: 50px;
-}
+
 .support-container {
   background-color: #F7F9FC;
   max-width: 100%;
-  
+  margin-top: 40px;
 }
 
 .support-header {
+  padding-top: 50px;
+ 
   margin-top: 70px;
   font-weight: 700;
   text-align: center;
@@ -20,10 +20,12 @@
   color: #192038;
   font-size: 24px;
   font-weight: 400;
+  
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 115px;
+  padding-bottom: 50px;
 }

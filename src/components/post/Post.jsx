@@ -6,6 +6,15 @@ import imgPostThree from './imgPostThree.png';
 import imgPostFive from './imgPostFive.png';
 import imgPostFour from './imgPostFour.png';
 import Button from '../../UI/button/Button';
+import postEllipseOne from './postEllipseOne.png'
+import postEllipseTwo from './postEllipseTwo.png'
+import postEllipseThree from './postEllipseThree.png'
+import postEllipseFour from './postEllipseFour.png'
+import postEllipseFive from './postEllipseFive.png'
+import postEllipseSix from './postEllipseSix.png'
+import postEllipseSeven from './postEllipseSeven.png'
+import postEllipseEight from './postEllipseEight.png'
+import postEllipseNine from './postEllipseNine.png'
 
 const Post = () => {
   const data = [
@@ -47,7 +56,17 @@ const Post = () => {
           Mamahood equips women with tools and <br /> community to make informed decisions <br />{' '}
           about their health.
         </h1>
+        <img className='postEllipseOne' src={postEllipseOne} alt={postEllipseOne} />
+          <img className='postEllipseTwo' src={postEllipseTwo} alt={postEllipseTwo} />
+          <img className='postEllipseThree' src={postEllipseThree} alt={postEllipseThree} />
+          <img className='postEllipseFour' src={postEllipseFour} alt={postEllipseFour} />
+          <img className='postEllipseFive' src={postEllipseFive} alt={postEllipseFive} />
+          <img className='postEllipseSix' src={postEllipseSix} alt={postEllipseSix} />
+          <img className='postEllipseSeven' src={postEllipseSeven} alt={postEllipseSeven} />
+          <img className='postEllipseEight' src={postEllipseEight} alt={postEllipseEight} />
+          <img className='postEllipseNine' src={postEllipseNine} alt={postEllipseNine} />
         <div className="content-block">
+         
           {data.map((item, index) =>
               <div key={item.description}>
             {index % 2 === 1 ? (

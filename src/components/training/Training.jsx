@@ -7,6 +7,7 @@ import imgThree from './imgThree.png';
 import imgFour from './imgFour.png';
 import imgFive from './imgFive.png';
 import imgSix from './imgSix.png';
+import ellipseCard from './ellipseCard.png'
 
 const Training = () => {
   const ellips = {
@@ -45,6 +46,7 @@ const Training = () => {
     <div className="training">
       <div className="container training-container">
         <h1 className="training__title">Mamahood</h1>
+        <img className='elliseCard' src={ellipseCard} alt={ellipseCard} />
         <div className="training-content">
           <div className="training-frame_card">
             <div className="training-frame__first-items">
