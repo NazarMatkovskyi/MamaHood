@@ -1,0 +1,14 @@
+.btn-download{
+display: flex;
+margin-left: 50px;
+}
+.btn-app{
+   width: 214px;
+   height: 63px;
+   margin-right: 10px;
+}
+
+.btn-market{
+   width: 214px;
+   height: 63px;
+}

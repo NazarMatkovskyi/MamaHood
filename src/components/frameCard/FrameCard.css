@@ -1,0 +1,35 @@
+.frame_card {
+  width: 320px;
+  
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgb(41, 41, 42);
+  background-color: #fff;
+  display: flex;
+  padding: 10px 30px 10px 15px;
+}
+.frame-img {
+  width: 27px;
+  height: 27px;
+  margin-top: 7px;
+}
+
+.frame_card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.frame-card__title {
+  font-weight: 600;
+  color: #2e3a59;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 5px;
+}
+
+.frame-card__text {
+  color: #8f9bb3;
+  text-align: start;
+  font-size: 16px;
+line-height: 150%;
+}

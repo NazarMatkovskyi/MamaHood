@@ -1,0 +1,52 @@
+
+
+
+.header-next__back{
+   background-image: url(/public/img/Group\ 1754.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0 50px;
+   margin-top: -50px;
+   
+
+
+}
+.img-header-next {
+  width: 485px;
+  height: 600px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.header-next__right {
+  width: 533px;
+  height: 484px;
+  margin-right: 80px;
+  margin-top: 130px;
+  font-size: 20px;
+  color: #2e3a59;
+}
+
+p {
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+.header-next__info{
+   margin-right: 15px;
+   margin-bottom: -50px;
+}
+.header-next__first{
+   position: relative;
+  padding-top: 680px;
+}
+.header-next__post {
+ padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #2e3a59;
+}
+.header-next__btn {
+  margin-left: 550px;
+}
+

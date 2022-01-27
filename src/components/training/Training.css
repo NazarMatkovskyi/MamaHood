@@ -1,0 +1,48 @@
+.training {
+  margin-top: 50px;
+}
+
+.training__title {
+  color: #222b45;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+.img-ellipse {
+  width: 903px;
+  height: 534px;
+}
+.training-container {
+  max-width: 1440px;
+  background-image: url(/public/img/ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 850px;
+}
+.training-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.frameCard {
+  background-color: black;
+}
+
+.training-frame_card {
+  min-height: 630px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.training-frame__first-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+
+.training-frame__second-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

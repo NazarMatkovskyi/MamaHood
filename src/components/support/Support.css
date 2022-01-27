@@ -1,0 +1,29 @@
+.support{
+  padding-bottom: 50px;
+}
+.support-container {
+  background-color: #F7F9FC;
+  max-width: 100%;
+  
+}
+
+.support-header {
+  margin-top: 70px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+  color: #222b45;
+}
+.support-header__info {
+  text-align: center;
+  margin-top: 19px;
+  color: #192038;
+  font-size: 24px;
+  font-weight: 400;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 115px;
+}
