@@ -1,11 +1,14 @@
 import React from 'react';
 import './HeaderInfo.css';
+import headerEllipsOne from './headerEllipsOne.png'
+import headerEllipsTwo from './headerEllipsTwo.png'
 
-const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl }) => {
+
+const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,img1 }) => {
   return (
     <div className="header">
-      <img className="header_elipse_1" src="img/header-elipsThree.png" alt="elipses" />
-      <img className="header_elipse_2" src="img/header_elipse_2.png" alt="elipses" />
+      <img className="header_elipse_1"  src={headerEllipsOne} alt="headerEllipsOne" />
+      <img className="header_elipse_2" src={headerEllipsTwo} alt={headerEllipsTwo} />
       <div className=" container header-block">
         <div className="header__title">{title}</div>
         <div className="header__text">

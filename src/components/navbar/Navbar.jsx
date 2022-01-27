@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import logo from './Logo.png';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <img width={91} height={48} src="/img/Logo.png" alt="logo" />
+        <img width={91} height={48} src={logo} alt="logo" />
         <ul className={click ? 'nav active' : 'nav'}>
           <li className="nav-item nav-item-hov">
             <a href="#about">About</a>

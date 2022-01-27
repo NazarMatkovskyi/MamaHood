@@ -6,6 +6,7 @@ import phoneTwo from './phoneTwo.png';
 import './Header.css';
 import HeaderSecond from '../headerSecond/HeaderSecond';
 
+
 const Header = () => {
   const information = {
     infoOne: {
@@ -44,6 +45,7 @@ const Header = () => {
             info={information.infoOne.info}
             button={information.infoOne.button}
             imgUrl={information.infoOne.img}
+            
           />
           <HeaderSecond
             imgUrl={information.infoTwo.img}
