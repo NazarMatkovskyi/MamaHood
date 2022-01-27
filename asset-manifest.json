@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MamaHood/static/css/main.ca7902bb.css",
-    "main.js": "/MamaHood/static/js/main.60377be2.js",
+    "main.js": "/MamaHood/static/js/main.341f6d22.js",
     "static/media/phoneOne.png": "/MamaHood/static/media/phoneOne.d5c7c2f24209223896c4.png",
     "static/media/imgPostThree.png": "/MamaHood/static/media/imgPostThree.4b6d4cb772644c433738.png",
     "static/media/phoneTwo.png": "/MamaHood/static/media/phoneTwo.f029271b5c9043d92503.png",
@@ -15,10 +15,10 @@
     "static/media/imgPostFive.png": "/MamaHood/static/media/imgPostFive.146b9594a95e54debe48.png",
     "index.html": "/MamaHood/index.html",
     "main.ca7902bb.css.map": "/MamaHood/static/css/main.ca7902bb.css.map",
-    "main.60377be2.js.map": "/MamaHood/static/js/main.60377be2.js.map"
+    "main.341f6d22.js.map": "/MamaHood/static/js/main.341f6d22.js.map"
   },
   "entrypoints": [
     "static/css/main.ca7902bb.css",
-    "static/js/main.60377be2.js"
+    "static/js/main.341f6d22.js"
   ]
 }
