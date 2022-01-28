@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/MamaHood/static/css/main.997664da.css",
-    "main.js": "/MamaHood/static/js/main.d5bdbd5c.js",
+    "main.css": "/MamaHood/static/css/main.d1c5c9e8.css",
+    "main.js": "/MamaHood/static/js/main.f1b27008.js",
     "static/media/phoneOne.png": "/MamaHood/static/media/phoneOne.d5c7c2f24209223896c4.png",
+    "static/media/Bitmap.png": "/MamaHood/static/media/Bitmap.d1a29e0511795ca739b2.png",
     "static/media/imgPostThree.png": "/MamaHood/static/media/imgPostThree.4b6d4cb772644c433738.png",
     "static/media/phoneTwo.png": "/MamaHood/static/media/phoneTwo.f029271b5c9043d92503.png",
     "static/media/cardOne.png": "/MamaHood/static/media/cardOne.67d65943bfc82909e786.png",
@@ -14,11 +15,11 @@
     "static/media/ellipse.png": "/MamaHood/static/media/ellipse.3c35b9b6d49b4e7b25bf.png",
     "static/media/imgPostFive.png": "/MamaHood/static/media/imgPostFive.146b9594a95e54debe48.png",
     "index.html": "/MamaHood/index.html",
-    "main.997664da.css.map": "/MamaHood/static/css/main.997664da.css.map",
-    "main.d5bdbd5c.js.map": "/MamaHood/static/js/main.d5bdbd5c.js.map"
+    "main.d1c5c9e8.css.map": "/MamaHood/static/css/main.d1c5c9e8.css.map",
+    "main.f1b27008.js.map": "/MamaHood/static/js/main.f1b27008.js.map"
   },
   "entrypoints": [
-    "static/css/main.997664da.css",
-    "static/js/main.d5bdbd5c.js"
+    "static/css/main.d1c5c9e8.css",
+    "static/js/main.f1b27008.js"
   ]
 }
