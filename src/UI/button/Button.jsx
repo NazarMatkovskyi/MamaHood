@@ -6,10 +6,10 @@ import btnPlay from './btn-market.png'
 const Button = ({ href }) => {
   return (
     <div className="btn-download">
-      <a href={href} className="btn-app">
+      <a  href="https://www.apple.com/ua/app-store/" className="btn-app">
         <img src={btnApp} alt={btnApp}/>
       </a>
-      <a href={href} className="btn-marker">
+      <a href="https://play.google.com/store/apps?hl=uk&gl=US"  className="btn-marker">
         <img src={btnPlay} alt={btnPlay} />
       </a>
     </div>

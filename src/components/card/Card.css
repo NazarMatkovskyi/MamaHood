@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   color: #525f7a;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 .card-imgAll{
   width: 200px;
@@ -36,5 +38,7 @@
     
 }
 @media only screen and (max-width: 600px) {
-  
+  .card{
+    padding: 0;
+  }
 }
