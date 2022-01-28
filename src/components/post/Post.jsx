@@ -49,6 +49,33 @@ const Post = () => {
       img: imgPostFive,
     },
   ];
+  const dataMobile = [
+    {
+      title: 'Ovulation Tracker',
+      description:
+        'The user can personalize and track their menstrual cycle and receive notification of their expected ovulation day. You can also predict which days are most likely to get pregnant. You can record how the user is feeling.',
+      img: imgPostOne,
+    },
+    {
+      title: 'Fetal development Calendar  ',
+      description:
+        'Description week by week of fetal development and baby growth. How the baby changes and how the mother’s body change week by week. What to expect at each checkup.',
+      img: imgPostTwo,
+    },
+    {
+      title: 'Baby growth Calendar  ',
+      description:
+        'Description month by month of baby growth and development. What to expect, how to help them grow healthy, how to stimulate the baby, etc Users will have an option to enter their babies weight, height, head size to see where they fall in the growth percentile in comparison with other kids of the same age.',
+      img: imgPostFive,
+    },
+    {
+      title: 'Contractions Counter ',
+      description:
+        'Keep track of contraction frequency. How much time between contractions. How strong they are and how long they last.',
+      img: imgPostFour,
+    },
+   
+  ]
   return (
     <div className="post">
       <div className="container">
@@ -65,14 +92,14 @@ const Post = () => {
           <img className='postEllipseSeven' src={postEllipseSeven} alt={postEllipseSeven} />
           <img className='postEllipseEight' src={postEllipseEight} alt={postEllipseEight} />
           <img className='postEllipseNine' src={postEllipseNine} alt={postEllipseNine} />
+
         <div className="content-block">
-         
           {data.map((item, index) =>
               <div key={item.description}>
             {index % 2 === 1 ? (
               <div className="block">
-                <div className="cards">
-                  <img className="card-image" src={item.img}  alt='picture' />
+                <div className="cardsPost">
+                  <img className="card-post__image" src={item.img}  alt='picture' />
                 </div>
                 <div className="descriptions-content">
                   <span className="title">{item.title}</span>
@@ -85,8 +112,8 @@ const Post = () => {
                   <span className="title">{item.title}</span>
                   <span className="description">{item.description}</span>
                 </div>
-                <div className="cards">
-                  <img className="card-image" src={item.img}  alt='picture'/>
+                <div className="cardsPost">
+                  <img className="card-post__image" src={item.img}  alt='picture'/>
                 </div>
               </div>
               )}
@@ -99,6 +126,35 @@ const Post = () => {
           <Button />
           </div>
           
+        </div>
+  {/* Mobile version */}
+        <div className="content-blockMobile">
+         
+          {dataMobile.map((item, index) =>
+              <div key={item.description}>
+            {index & 2 === 1 ? (
+              <div className="blockMobile">
+                <div className="cardsPostMobile">
+                <div className="titleMobile">{item.title}</div>
+                  <img className="card-post__imageMobile" src={item.img}  alt='picture' />
+                </div>
+                <div className="descriptions-contentMobile">
+                  <div className="descriptionMobile">{item.description}</div>
+                </div>
+              </div>
+            ) : (
+              <div className="blockMobile">
+              <div className="cardsPostMobile">
+              <div className="titleMobile">{item.title}</div>
+                <img className="card-post__imageMobile" src={item.img}  alt='picture' />
+              </div>
+              <div className="descriptions-contentMobile">
+                <div className="descriptionMobile">{item.description}</div>
+              </div>
+            </div>
+              )}
+              </div>
+          )}
         </div>
       </div>
     </div>

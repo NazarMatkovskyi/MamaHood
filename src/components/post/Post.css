@@ -9,21 +9,29 @@
   margin-top: 50px;
   letter-spacing: 0.02em;
   color: #222b45;
+  margin-bottom: 100px;
 }
+
 .content-block {
   display: flex;
   flex-direction: column;
+}
+.cardsPost {
+  margin-top: 40px;
 }
 .block {
   margin-left: 140px;
 }
 .content-block .block {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  gap: 20px;
+  align-items: center;
+  grid-template-columns: 3fr 3fr;
+  gap: 40px;
+  margin-top: 40px;
 }
 .content-block .block .descriptions-content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -32,7 +40,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-  margin-top: 110px;
+
   margin-bottom: 20px;
 }
 .block .description {
@@ -43,7 +51,7 @@
   color: #2e3a59;
 }
 .post-button {
-   margin-top: 100px;
+  margin-top: 100px;
   text-align: center;
   color: #2e3a59;
 }
@@ -56,60 +64,100 @@
   margin-left: 450px;
   margin-bottom: 20px;
 }
-.postEllipseOne{
+.postEllipseOne {
   position: absolute;
   left: 19%;
   top: 485%;
   z-index: -12;
-  
 }
-.postEllipseTwo{
+.postEllipseTwo {
   position: absolute;
   right: 7%;
   top: 485%;
   z-index: -14;
 }
-.postEllipseThree{
-position: absolute;
+.postEllipseThree {
+  position: absolute;
   left: 9%;
   top: 550%;
   z-index: -11;
 }
-.postEllipseFour{
+.postEllipseFour {
   position: absolute;
   right: 14%;
   top: 546%;
   z-index: -11;
-
 }
-.postEllipseFive{
+.postEllipseFive {
   position: absolute;
   left: 6%;
   top: 627%;
   z-index: -11;
 }
-.postEllipseSix{
+.postEllipseSix {
   position: absolute;
   right: 6%;
   top: 662%;
   z-index: -11;
 }
 
-.postEllipseSeven{
+.postEllipseSeven {
   position: absolute;
   left: 0;
   top: 840%;
   z-index: -12;
 }
-.postEllipseEight{
+.postEllipseEight {
   position: absolute;
   right: 0;
   top: 840%;
-    z-index: -12;
+  z-index: -12;
 }
-.postEllipseNine{
+.postEllipseNine {
   position: absolute;
   left: 5%;
   top: 950%;
   z-index: -12;
+}
+.content-blockMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-block {
+    display: none;
+  }
+  .post_title {
+    display: none;
+  }
+  .post-button {
+    display: none;
+  }
+  .content-blockMobile {
+    display: block;
+  }
+  .blockMobile {
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .titleMobile {
+    font-size: 28px;
+    color: #25a9c0;
+    font-weight: bold;
+    line-height: 140%;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .card-post__imageMobile {
+    width: 299px;
+    height: 290px;
+    padding-top: 10px;
+  }
+  .descriptions-contentMobile {
+    color: #2e3a59;
+    font-size: 18px;
+    line-height: 140%;
+    margin-top: 40px;
+  }
 }

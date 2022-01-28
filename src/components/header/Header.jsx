@@ -17,7 +17,9 @@ const Header = () => {
         ' With Mamahood, you have the medical advice, emotional support and social circle through fertility, pregnancy and parenting',
       info: 'Download the app to your device',
       button: <Button />,
-      img: phoneOne
+      img: phoneOne,
+      titleMobile:'Women`s app only',
+      descriptionMobile: 'Track your cycle, monitor your baby`s health, get tips from other women, and chat on our app.'
     },
     infoTwo: {
       img: phoneTwo,
@@ -40,7 +42,9 @@ const Header = () => {
         <div className="header-content">
           <HeaderInfo
             title={information.infoOne.title}
+            titleMobile={information.infoOne.titleMobile}
             description={information.infoOne.description}
+            descriptionMobile={information.infoOne.descriptionMobile}
             descriptionTwo={information.infoOne.descriptionTwo}
             info={information.infoOne.info}
             button={information.infoOne.button}

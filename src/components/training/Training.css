@@ -52,3 +52,33 @@
   top: 418%;
   z-index: -12;
 }
+.training-frame__itemMobile{
+  display: none;
+}
+
+ @media only screen and (max-width: 600px) {
+  .training__title{
+    display: none;
+  }
+  .training-container {
+    
+    background-image:none;
+    
+  }
+  .training-frame__first-items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .training-frame__itemMobile{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 32px;
+    
+  }
+  .training-frame_card{
+    display: none;
+  }
+  
+}

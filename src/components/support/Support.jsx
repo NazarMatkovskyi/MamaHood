@@ -26,9 +26,17 @@ const Support = () => {
     <div className="support">
       <div className="container support-container">
         <div className="support-header">Three Motherhood Stages – 24/7 Support</div>
+        
         <div className="support-header__info">
-          Save yourself from the hassle of switching from one app to another. Mamahood will <br />{' '}
+          Save yourself from the hassle of switching from one app to another. Mamahood will <br />
           provide you the ultimate support throughout your motherhood journey.
+        </div>
+        <div className="support-mobile">
+        <div className="support-header__mobile">Mamahood</div>
+        <div className="support-header__infoMobile">
+        
+        MamaHood is a social and  informative platform where women  at all stages of women's lives can  connect, meet, support and learn  from each other, personal  experiences on conception,  pregnancy and motherhood.
+        </div>
         </div>
         <div className="cards">
           <Card imgUrl={cards.cardOne.img} title={cards.cardOne.title} text={cards.cardOne.text}

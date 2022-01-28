@@ -28,7 +28,7 @@ const FooterOne = () => {
               <div className="item-description">{item.descriptions}</div>
               <div className="items-btn">
                 <img className="item-btn__one" src={item.buttonOne} />
-                <img className="item-btn__two" src={item.buttonTwo} />
+                <img className="item-btn__one" src={item.buttonTwo} />
               </div>
             </div>
           ))}
