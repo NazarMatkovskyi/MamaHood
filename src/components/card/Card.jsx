@@ -4,7 +4,7 @@ import './Card.css';
 const Card = ({imgUrl,title,text}) => {
  
   return (
-    <div className="card">
+    <div id="about"  className="card">
       <img className='card-imgAll' src={imgUrl} alt="card_one"/>
       <div className='card__title'>
          {title}
@@ -15,3 +15,5 @@ const Card = ({imgUrl,title,text}) => {
 };
 
 export default Card;
+
+

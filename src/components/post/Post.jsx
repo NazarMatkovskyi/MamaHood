@@ -77,7 +77,7 @@ const Post = () => {
    
   ]
   return (
-    <div className="post">
+    <div id='features'  className="post">
       <div className="container">
         <h1 className="post_title">
           Mamahood equips women with tools and <br /> community to make informed decisions <br />{' '}

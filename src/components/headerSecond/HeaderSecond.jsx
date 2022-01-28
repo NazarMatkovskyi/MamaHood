@@ -45,11 +45,13 @@ const HeaderSecond = ({
           </div>
         </div>
       </div>
-      <div className="header-second__footer">
+      <div  className="header-second__footer">
         <div className="header-second_info">{info}</div>
         <div className="header-second_button">{button}</div>
       </div>
+     
     </div>
+    
   );
 };
 

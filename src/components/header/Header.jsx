@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container header-container">
-        <div className="header-content">
+        <div  className="header-content">
           <HeaderInfo
             title={information.infoOne.title}
             titleMobile={information.infoOne.titleMobile}
@@ -52,6 +52,7 @@ const Header = () => {
             
           />
           <HeaderSecond
+          
             imgUrl={information.infoTwo.img}
             description={information.infoTwo.description}
             descriptionTwo={information.infoTwo.descriptionTwo}
@@ -61,8 +62,8 @@ const Header = () => {
             button={information.infoTwo.button}
           />
         </div>
-      </div>
-    </header>
+      </div >
+     </header>
   );
 };
 

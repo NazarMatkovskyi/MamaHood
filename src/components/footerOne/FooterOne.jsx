@@ -15,7 +15,7 @@ const FooterOne = () => {
     },
   ];
   return (
-    <div className="footer-one">
+    <div id="tools" className="footer-one">
       <div className=" footer-one__container">
         <div className="footer-block">
           {data.map((item) => (

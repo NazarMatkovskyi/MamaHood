@@ -4,7 +4,7 @@ import './HeaderNext.css';
 
 const HeaderNext = () => {
   return (
-    <section className="header_next">
+    <section  className="header_next">
       <div className="container header header-next__back">
         <div className="header-next__left">
           <img className="img-header-next" src="/img/Group 1665.png" alt="img_header" />
