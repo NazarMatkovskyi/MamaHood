@@ -29,7 +29,7 @@ const Navbar = ({}) => {
             </a>
           </li>
         </ul>
-        <div onClick={handleCLick} className="hamburger">
+        <div onClick={handleCLick}  className="hamburger">
           {click ? (
             <img src={burgerList} className="icon" />
           ) : (
