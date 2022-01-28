@@ -5,7 +5,7 @@ const Card = ({imgUrl,title,text}) => {
  
   return (
     <div className="card">
-      <img src={imgUrl} alt="card_one"/>
+      <img className='card-imgAll' src={imgUrl} alt="card_one"/>
       <div className='card__title'>
          {title}
       </div>

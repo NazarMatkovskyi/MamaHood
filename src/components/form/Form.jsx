@@ -55,6 +55,8 @@ const Form = () => {
       <div className="container">
         <div className="form-block">
           <div className="form-title">Contact us</div>
+          <div className="subtitle">To serve you better please share 
+more details here</div>
           <div className="form-block__content">
             <form className="form-content" onSubmit={handleSubmit(onSubmit)}>
               <input

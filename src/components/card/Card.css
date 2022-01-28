@@ -7,9 +7,12 @@
   align-items: center;
   color: #525f7a;
 }
-.card__img {
-  margin-bottom: 10px;
+.card-imgAll{
+  width: 200px;
+  height: 200px;
+  
 }
+
 .card__title {
   font-size: 29px;
   line-height: 35px;
@@ -28,7 +31,10 @@
 }
 
 .card + .card {
-  margin-left: 50px;
-  margin-top: 18px ;
+  
+  margin-top: 28px ;
     
+}
+@media only screen and (max-width: 600px) {
+  
 }

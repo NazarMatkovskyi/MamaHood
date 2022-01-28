@@ -20,7 +20,7 @@ function App() {
             <Post />
             <FooterOne />
             <Form />
-            <Footer />
+            {/* <Footer /> */}
     </div>
   );
 }
