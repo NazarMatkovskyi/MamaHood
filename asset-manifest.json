@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MamaHood/static/css/main.d1c5c9e8.css",
-    "main.js": "/MamaHood/static/js/main.f1b27008.js",
+    "main.css": "/MamaHood/static/css/main.c41dc82d.css",
+    "main.js": "/MamaHood/static/js/main.3dcc310d.js",
     "static/media/phoneOne.png": "/MamaHood/static/media/phoneOne.d5c7c2f24209223896c4.png",
     "static/media/Bitmap.png": "/MamaHood/static/media/Bitmap.d1a29e0511795ca739b2.png",
     "static/media/imgPostThree.png": "/MamaHood/static/media/imgPostThree.4b6d4cb772644c433738.png",
@@ -15,11 +15,11 @@
     "static/media/ellipse.png": "/MamaHood/static/media/ellipse.3c35b9b6d49b4e7b25bf.png",
     "static/media/imgPostFive.png": "/MamaHood/static/media/imgPostFive.146b9594a95e54debe48.png",
     "index.html": "/MamaHood/index.html",
-    "main.d1c5c9e8.css.map": "/MamaHood/static/css/main.d1c5c9e8.css.map",
-    "main.f1b27008.js.map": "/MamaHood/static/js/main.f1b27008.js.map"
+    "main.c41dc82d.css.map": "/MamaHood/static/css/main.c41dc82d.css.map",
+    "main.3dcc310d.js.map": "/MamaHood/static/js/main.3dcc310d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c5c9e8.css",
-    "static/js/main.f1b27008.js"
+    "static/css/main.c41dc82d.css",
+    "static/js/main.3dcc310d.js"
   ]
 }
