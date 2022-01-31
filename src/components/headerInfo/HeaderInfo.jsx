@@ -8,12 +8,7 @@ import bntApp from './btn-app.png'
 
 const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,descriptionMobile,titleMobile}) => {
   return (
-    <div className="header">
-      <div className="header-ellipse">
-      <img className="header_elipse_1"  src={headerEllipsOne} alt="headerEllipsOne" />
-      <img className="header_elipse_2" src={headerEllipsTwo} alt='headerEllipsTwo' />
-     
-      </div>
+    <div className="header">  
        <div className=" container header-block">
         <div className="header__title">{title}</div>
         <div className="header__titleMobile">{titleMobile}</div>
@@ -21,7 +16,10 @@ const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,d
           <p className="header__text-one">{description}</p>
           <p className="header__text-two">{descriptionTwo}</p>
         </div>
-        
+        <div className="header-ellipse">
+      <img className="header_elipse_1"  src={headerEllipsOne} alt="headerEllipsOne" />
+    
+      </div>
         <div className="header-text__mobile">
         <p className="header__text-oneMobile">{descriptionMobile}</p>
         </div>
@@ -37,6 +35,10 @@ const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,d
       </div>
       <div className="img-header">
         <img className="img-header_first" src={imgUrl} alt="img_one" />
+      </div>
+      <div className="header-ellipse">
+    
+      <img className="header_elipse_2" src={headerEllipsTwo} alt='headerEllipsTwo' />
       </div>
     </div>
   );

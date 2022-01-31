@@ -67,25 +67,25 @@
 .postEllipseOne {
   position: absolute;
   left: 19%;
-  top: 485%;
+  top: 500%;
   z-index: -12;
 }
 .postEllipseTwo {
   position: absolute;
-  right: 7%;
-  top: 485%;
+  right: 13%;
+  top: 499%;
   z-index: -14;
 }
 .postEllipseThree {
   position: absolute;
   left: 9%;
-  top: 550%;
+  top: 565%;
   z-index: -11;
 }
 .postEllipseFour {
   position: absolute;
-  right: 14%;
-  top: 546%;
+  right: 20%;
+  top: 558%;
   z-index: -11;
 }
 .postEllipseFive {
@@ -104,13 +104,13 @@
 .postEllipseSeven {
   position: absolute;
   left: 0;
-  top: 840%;
+  top: 810%;
   z-index: -12;
 }
 .postEllipseEight {
   position: absolute;
   right: 0;
-  top: 840%;
+  top: 810%;
   z-index: -12;
 }
 .postEllipseNine {
@@ -159,5 +159,8 @@
     font-size: 18px;
     line-height: 140%;
     margin-top: 40px;
+  }
+  .elipseAll{
+    display: none;
   }
 }

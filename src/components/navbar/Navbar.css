@@ -43,24 +43,28 @@ a {
   
 }
 
-
+.navbar .icon {
+  color: #fff;
+  font-size: 16px;
+}
 .navbar h1,
 a {
-  color: #2e3a59;
+  color: #000;
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 940px) {
   .hamburger {
     display: block;
+   
   }
   .nav {
-    position: relative;
+    position: fixed;
     flex-direction: column;
     justify-content: start !important;
-    margin-top: 30%;
+    margin-top: -10px;
     top: 90px;
     left: -100%;
     width: 100%;
-    height: 500%;
+    height: 100%;
     background-color: #fff;
     z-index: 1 ;
     transition: 0.3s;

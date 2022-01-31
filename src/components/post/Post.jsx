@@ -83,6 +83,7 @@ const Post = () => {
           Mamahood equips women with tools and <br /> community to make informed decisions <br />{' '}
           about their health.
         </h1>
+        <div className="elipseAll">
         <img className='postEllipseOne' src={postEllipseOne} alt={postEllipseOne} />
           <img className='postEllipseTwo' src={postEllipseTwo} alt={postEllipseTwo} />
           <img className='postEllipseThree' src={postEllipseThree} alt={postEllipseThree} />
@@ -93,6 +94,8 @@ const Post = () => {
           <img className='postEllipseEight' src={postEllipseEight} alt={postEllipseEight} />
           <img className='postEllipseNine' src={postEllipseNine} alt={postEllipseNine} />
 
+        </div>
+       
         <div className="content-block">
           {data.map((item, index) =>
               <div key={item.description}>
