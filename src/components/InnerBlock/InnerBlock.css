@@ -8,8 +8,7 @@
     width: 100%;
     background-color: #ecb3b6;
     margin: 0 auto;
- 
-  
+    z-index: -200;
   }
   .inner-block__container {
     padding: 20px 30px;

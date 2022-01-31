@@ -2,6 +2,10 @@ import React from 'react';
 import './FooterOne.css';
 import btnFooterOne from './btnFooterOne.png';
 import btnFooterTwo from './btnFooterTwo.png';
+import footerOneEllipse1 from './footerOneEllipse1.png'
+import footerOneEllipse2 from './footerOneEllipse2.png'
+import footerOneEllipse3 from './footerOneEllipse3.png'
+import footerOneEllipse4 from './footerOneEllipse4.png'
 
 const FooterOne = () => {
   const data = [
@@ -32,6 +36,12 @@ const FooterOne = () => {
               </div>
             </div>
           ))}
+          <div className="footerOne-ellipse">
+            <img className='footerOneEllipse1' src={footerOneEllipse1} alt="footerOneEllipse1" />
+            <img className='footerOneEllipse2' src={footerOneEllipse2} alt="footerOneEllipse2" />
+            <img className='footerOneEllipse3' src={footerOneEllipse3} alt="footerOneEllipse3" />
+            <img className='footerOneEllipse4' src={footerOneEllipse4} alt="footerOneEllipse4" />
+          </div>
         </div>
       </div>
     </div>

@@ -14,6 +14,17 @@ import imgFriends from './friendsThree.png'
 import imgVector from './VectorFour.png'
 import imgBitman from './Bitmap.png'
 import InnerBlock from '../InnerBlock/InnerBlock';
+import postEllipseMobile1 from './postEllipseMobile1.png'
+import postEllipseMobile2 from './postEllipseMobile2.png'
+import postEllipseMobile3 from './postEllipseMobile3.png'
+import postEllipseMobile4 from './postEllipseMobile4.png'
+import postEllipseMobile5 from './postEllipseMobile5.png'
+import postEllipseMobile6 from './postEllipseMobile6.png'
+import postEllipseMobile7 from './postEllipseMobile7.png'
+import postEllipseMobile8 from './postEllipseMobile8.png'
+import innerEllipse1 from './innerEllipse1.png'
+import innerEllipse2 from './innerEllipse2.png'
+import innerEllipse3 from './innerEllipse3.png'
 
 const Training = () => {
   const ellips = {
@@ -111,6 +122,17 @@ const Training = () => {
           </div>
           {/* For Mobile */}
           <div className="frame__mobile">
+            <div className="elipsePostsMobile">
+            <img className='postEllipseMobile1' src={postEllipseMobile1} alt="postEllipseMobile1" />
+            <img className='postEllipseMobile2' src={postEllipseMobile2} alt="postEllipseMobile2" />
+            <img className='postEllipseMobile3' src={postEllipseMobile3} alt="postEllipseMobile3" />
+            <img className='postEllipseMobile4' src={postEllipseMobile4} alt="postEllipseMobile4" />
+            <img className='postEllipseMobile5' src={postEllipseMobile5} alt="postEllipseMobile5" />
+            <img className='postEllipseMobile6' src={postEllipseMobile6} alt="postEllipseMobile6" />
+            <img className='postEllipseMobile7' src={postEllipseMobile7} alt="postEllipseMobile7" />
+            <img className='postEllipseMobile8' src={postEllipseMobile8} alt="postEllipseMobile8" />
+            </div>
+            
             <div div className="training-frame__itemMobile">
               <FrameCard
                 imgUrl={ellips.ellipsSix.img}
@@ -173,6 +195,11 @@ const Training = () => {
            vector={block.innerBlock.vector}
            img={block.innerBlock.img}
         />  
+        <div className="inner-blockEllipse">
+          <img className='innerEllipse1'  src={innerEllipse1} alt="innerEllipse1" />
+          <img className='innerEllipse2'  src={innerEllipse2} alt="innerEllipse2" />
+          <img className='innerEllipse3'  src={innerEllipse3} alt="innerEllipse3" />
+        </div>
       </div>
     </div>
   );

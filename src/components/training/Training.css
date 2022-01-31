@@ -55,6 +55,12 @@
 .training-frame__itemMobile{
   display: none;
 }
+.elipsePostsMobile{
+  display: none;
+}
+.inner-blockEllipse{
+  display: none;
+}
 
  @media only screen and (max-width: 600px) {
   .training__title{
@@ -79,6 +85,78 @@
   }
   .training-frame_card{
     display: none;
+  }
+  .elipsePostsMobile{
+    display: block;
+  }
+  .postEllipseMobile1{
+    position: absolute;
+    right: 0;
+    top: 417%;
+    z-index: -30;
+  }
+  .postEllipseMobile2{
+    position: absolute;
+    right: 0;
+    top: 425%;
+    z-index: -30;
+  }
+  .postEllipseMobile3{
+    position: absolute;
+    left: 0;
+    top: 445%;
+    z-index: -30;
+  }
+  .postEllipseMobile4{
+    position: absolute;
+    left: 0;
+    top: 455%;
+    z-index: -30;
+  }
+  .postEllipseMobile5{
+    position: absolute;
+    right: 4%;
+    top: 474%;
+    z-index: -14;
+    
+  }
+  .postEllipseMobile6{
+    position: absolute;
+    right: 0;
+    top: 478%;
+    z-index: -30;
+  }
+  .postEllipseMobile7{
+    position: absolute;
+    left: 0;
+    top: 492%;
+    z-index: -30;
+  }
+  .postEllipseMobile8{
+    position: absolute;
+    left: 0;
+    top: 498%;
+    z-index: -15;
+    z-index: -30;
+  }
+  .inner-blockEllipse{
+    display: block;
+   
+  }
+  .innerEllipse1{
+    position: absolute;
+    top: 519%;
+    right: 0;
+  }
+  .innerEllipse2{
+    position: absolute;
+    top: 647%;
+    left: 0;
+  }
+  .innerEllipse3{
+    position: absolute;
+    top: 640%;
+    right: 0;
   }
   
 }

@@ -3,6 +3,10 @@ import { useForm } from 'react-hook-form';
 import './Form.css';
 import activeBtn from './activeBtn.png';
 import noActiveBtn from './NoActiveBtn.png';
+import ellipseFormOne from './ellipseFormOne.png'
+import ellipseFormTwo from './ellipseFormTwo.png'
+import ellipseFormThree from './ellipseFormThree.png'
+import ellipseFormFour from './ellipseFormFour.png'
 
 const Form = () => {
   const {
@@ -53,6 +57,12 @@ const Form = () => {
   return (
     <div className="form">
       <div className="container">
+      <div className="elipseFormMobileInner">
+                  <img className='ellipseFormOne' src={ellipseFormOne} alt="ellipseFormOne" />
+                 <img className='ellipseFormTwo' src={ellipseFormTwo} alt="ellipseFormTwo" />
+                 <img className='ellipseFormThree' src={ellipseFormThree} alt="ellipseFormThree" />
+                 <img className='ellipseFormFour' src={ellipseFormFour} alt="ellipseFormFour" />
+                  </div>
         <div className="form-block">
           <div className="form-title">Contact us</div>
           <div className="subtitle">To serve you better please share 
@@ -86,6 +96,7 @@ more details here</div>
            
               <div className="inner-list">
                 <div className="inner-title">Specify your enquiry:</div>
+                
                 <div className="content-block-btn">
                   {marker.map((item) => (
                       <div className="blocks"
@@ -113,6 +124,7 @@ more details here</div>
                     <input type="submit" value="Send" className='btn-send' />
                   </div>
                 
+         
               </div>
             </form>
           </div>
