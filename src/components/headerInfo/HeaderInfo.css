@@ -105,14 +105,15 @@
     margin-left: 10px;
     margin-top: 0;
     font-size: 10px;
+    
   }
   .header__title {
     font-size: 20px;
-
     color: #2e3a59;
     font-weight: 500;
     line-height: 128%;
   }
+
 
   .header {
     display: flex;
@@ -176,6 +177,7 @@
   }
   .ellipse__mobile{
     display: block;
+    
   }
   .header_elipse__mobile-One{
     position: absolute;
@@ -218,13 +220,13 @@
 
   .elipse__mobile-One{
     position: absolute;
-    top: 134%;
+    top: 135%;
     right: 15%;
 
   }
   .elipse__mobile-Two{
     position: absolute;
-    top: 150%;
+    top: 165%;
     right: 0;
   }
   .elipse__mobile-Three{
