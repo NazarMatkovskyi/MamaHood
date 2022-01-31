@@ -57,17 +57,17 @@ const Form = () => {
   return (
     <div className="form">
       <div className="container">
-      <div className="elipseFormMobileInner">
-                  <img className='ellipseFormOne' src={ellipseFormOne} alt="ellipseFormOne" />
-                 <img className='ellipseFormTwo' src={ellipseFormTwo} alt="ellipseFormTwo" />
-                 <img className='ellipseFormThree' src={ellipseFormThree} alt="ellipseFormThree" />
-                 <img className='ellipseFormFour' src={ellipseFormFour} alt="ellipseFormFour" />
-                  </div>
         <div className="form-block">
           <div className="form-title">Contact us</div>
           <div className="subtitle">To serve you better please share 
 more details here</div>
           <div className="form-block__content">
+          <div className="elipseFormMobileInner">
+                  <img className='ellipseFormOne' src={ellipseFormOne} alt="ellipseFormOne" />
+                 <img className='ellipseFormTwo' src={ellipseFormTwo} alt="ellipseFormTwo" />
+                 <img className='ellipseFormThree' src={ellipseFormThree} alt="ellipseFormThree" />
+                 <img className='ellipseFormFour' src={ellipseFormFour} alt="ellipseFormFour" />
+                  </div>
             <form className="form-content" onSubmit={handleSubmit(onSubmit)}>
               <input
                 className="form-input form-input-one"
