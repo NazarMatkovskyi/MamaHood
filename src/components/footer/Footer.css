@@ -43,6 +43,7 @@
     color: #8F9BB3;
     font-weight: 500;
     padding-top: 8px;
+    cursor: pointer;
  }
 .footer__inner__btn{
    margin-top: 10px;
@@ -52,10 +53,12 @@
    flex-wrap: wrap;
    justify-content: space-around;
     margin-top: 90px;
-   
-   
 }
 
+.footer__inner-link:hover{
+   color: #5BCBDF;
+   transition: 1s;
+}
 
 
 .footer-item__text{

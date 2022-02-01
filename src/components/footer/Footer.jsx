@@ -8,6 +8,7 @@ import Facebook from '../../images/brand-facebook.png';
 import Twitter from '../../images/brand-twitter.png';
 import YouTube from '../../images/brand-youtube.png';
 import Instagram from '../../images/brand-instagram.png';
+import {Link} from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -19,20 +20,15 @@ const Footer = () => {
         <div className="footer-end-one">
           <ul className="footer-blocks">
             <li className="footer-itemOne">
-              <a className="footer-item__title" href="#about">
+              <a className="footer-item__title" href="/" to="about" duration={2500} spy={true} offset={-370} smooth={true}>
                 Project
               </a>
               <div className="footer-about__inner">
-                <a className="footer__inner" href="/">
-                  About
-                </a>
-                <a className="footer__inner" href="/">
-                  Features
-                </a>
-                <a className="footer__inner" href="/">
-                  Tools
-                </a>
+              <a className="footer__inner" href='/'> <Link className="footer__inner footer__inner-link"  to="about" duration={2500} spy={true} offset={-370} smooth={true}>About</Link></a>
+              <a className="footer__inner" href="/"><Link className="footer__inner footer__inner-link"   to="features" duration={2500} spy={true} offset={-80} smooth={true}>Features</Link></a>
+              <a className="footer__inner" href="/"><Link className="footer__inner footer__inner-link"   to="tools" duration={2500} spy={true}  offset={-120} smooth={true}>Tools</Link></a>
               </div>
+             
             </li>
             <li className="footer-itemTwo">
               <a className="footer-item__title" href="/">
