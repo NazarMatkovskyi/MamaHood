@@ -1,15 +1,15 @@
 import React from 'react';
 import './HeaderSecond.css'
-import EllipseOne from './EllipseOne.png'
-import EllipseTwo from './EllipseTwo.png'
-import EllipseThree from './EllipseThreee.png'
-import EllipseFour from './EllipseFour.png'
-import EllipseFive from './EllipseFive.png'
-import EllipseSix from './EllipseSix.png'
-import EllipseSeven from './EllipseSeven.png'
-import EllipseEight from './EllipseEight.png'
-import EllipseNine from './EllipseNine.png'
-import EllipseTen from './EllipseTen.png'
+import EllipseTwo from '../../images/EllipseTwo.png'
+import EllipseOne from '../../images/EllipseOne.png'
+import EllipseThree from '../../images/EllipseThreee.png'
+import EllipseFour from '../../images/EllipseFour.png'
+import EllipseFive from '../../images/EllipseFive.png'
+import EllipseSix from '../../images/EllipseSix.png'
+import EllipseSeven from '../../images/EllipseSeven.png'
+import EllipseEight from '../../images/EllipseEight.png'
+import EllipseNine from '../../images/EllipseNine.png'
+import EllipseTen from '../../images/EllipseTen.png'
 
 const HeaderSecond = ({
   description,

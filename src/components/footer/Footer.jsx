@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css';
-import logo from './Logo.png';
-import btnApp from './btn-app.png';
-import btnMarket from './btn-market.png';
-import World from './world.png';
-import Facebook from './brand-facebook.png';
-import Twitter from './brand-twitter.png';
-import YouTube from './brand-youtube.png';
-import Instagram from './brand-instagram.png';
+import logo from '../../images/Logo.png';
+import btnApp from '../../images/btn-app.png';
+import btnMarket from '../../images/btn-market.png';
+import World from '../../images/world.png';
+import Facebook from '../../images/brand-facebook.png';
+import Twitter from '../../images/brand-twitter.png';
+import YouTube from '../../images/brand-youtube.png';
+import Instagram from '../../images/brand-instagram.png';
 
 const Footer = () => {
   return (

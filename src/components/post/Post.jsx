@@ -1,20 +1,20 @@
 import React from 'react';
 import './Post.css';
-import imgPostOne from './imgPostOne.png';
-import imgPostTwo from './imgPostTwo.png';
-import imgPostThree from './imgPostThree.png';
-import imgPostFive from './imgPostFive.png';
-import imgPostFour from './imgPostFour.png';
+import imgPostOne from '../../images/imgPostOne.png';
+import imgPostTwo from '../../images/imgPostTwo.png';
+import imgPostThree from '../../images/imgPostThree.png';
+import imgPostFive from '../../images/imgPostFive.png';
+import imgPostFour from '../../images/imgPostFour.png';
 import Button from '../../UI/button/Button';
-import postEllipseOne from './postEllipseOne.png'
-import postEllipseTwo from './postEllipseTwo.png'
-import postEllipseThree from './postEllipseThree.png'
-import postEllipseFour from './postEllipseFour.png'
-import postEllipseFive from './postEllipseFive.png'
-import postEllipseSix from './postEllipseSix.png'
-import postEllipseSeven from './postEllipseSeven.png'
-import postEllipseEight from './postEllipseEight.png'
-import postEllipseNine from './postEllipseNine.png'
+import postEllipseOne from '../../images/postEllipseOne.png'
+import postEllipseTwo from '../../images/postEllipseTwo.png'
+import postEllipseThree from '../../images/postEllipseThree.png'
+import postEllipseFour from '../../images/postEllipseFour.png'
+import postEllipseFive from '../../images/postEllipseFive.png'
+import postEllipseSix from '../../images/postEllipseSix.png'
+import postEllipseSeven from '../../images/postEllipseSeven.png'
+import postEllipseEight from '../../images/postEllipseEight.png'
+import postEllipseNine from '../../images/postEllipseNine.png'
 
 const Post = () => {
   const data = [

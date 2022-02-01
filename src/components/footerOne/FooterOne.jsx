@@ -1,11 +1,11 @@
 import React from 'react';
 import './FooterOne.css';
-import btnFooterOne from './btnFooterOne.png';
-import btnFooterTwo from './btnFooterTwo.png';
-import footerOneEllipse1 from './footerOneEllipse1.png'
-import footerOneEllipse2 from './footerOneEllipse2.png'
-import footerOneEllipse3 from './footerOneEllipse3.png'
-import footerOneEllipse4 from './footerOneEllipse4.png'
+import btnFooterOne from '../../images/btnFooterOne.png';
+import btnFooterTwo from '../../images/btnFooterTwo.png';
+import footerOneEllipse1 from '../../images/footerOneEllipse1.png'
+import footerOneEllipse2 from '../../images/footerOneEllipse2.png'
+import footerOneEllipse3 from '../../images/footerOneEllipse3.png'
+import footerOneEllipse4 from '../../images/footerOneEllipse4.png'
 
 const FooterOne = () => {
   const data = [

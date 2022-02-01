@@ -1,18 +1,18 @@
 import React from 'react';
 import './HeaderInfo.css';
-import headerEllipsOne from './headerEllipsOne.png'
-import headerEllipsTwo from './headerEllipsTwo.png'
-import bntMarket from './btn-market.png'
-import bntApp from './btn-app.png'
-import headerEllipsMobileOne from './headerEllipse__mobile-One.png'
-import headerEllipsMobileTwo from './headerEllipse__mobile-Two.png'
-import headerEllipsMobileThree from './headerEllipse__mobile-Three.png'
-import headerEllipsMobileFour from './headerEllipse__mobile-Four.png'
-import headerEllipsMobileFive from './headerEllipse__mobile-Five.png'
-import headerEllipsMobileSix from './headerEllipse__mobile-Six.png'
-import CardEllipseMobileOne from './cardEllipseMobileOne.png'
-import CardEllipseMobileTwo from './cardEllipseMobileTwo.png'
-import CardEllipseMobileThree from './cardEllipseMobileThree.png'
+import headerEllipsOne from '../../images/headerEllipsOne.png'
+import headerEllipsTwo from '../../images/headerEllipsTwo.png'
+import bntMarket from '../../images/btn-market.png'
+import bntApp from '../../images/btn-app.png'
+import headerEllipsMobileOne from '../../images/headerEllipse__mobile-One.png'
+import headerEllipsMobileTwo from '../../images/headerEllipse__mobile-Two.png'
+import headerEllipsMobileThree from '../../images/headerEllipse__mobile-Three.png'
+import headerEllipsMobileFour from '../../images/headerEllipse__mobile-Four.png'
+import headerEllipsMobileFive from '../../images/headerEllipse__mobile-Five.png'
+import headerEllipsMobileSix from '../../images/headerEllipse__mobile-Six.png'
+import CardEllipseMobileOne from '../../images/cardEllipseMobileOne.png'
+import CardEllipseMobileTwo from '../../images/cardEllipseMobileTwo.png'
+import CardEllipseMobileThree from '../../images/cardEllipseMobileThree.png'
 
 
 const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,descriptionMobile,titleMobile}) => {
@@ -35,7 +35,6 @@ const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,d
         </div>
         <div className="header-ellipse">
       <img className="header_elipse_1"  src={headerEllipsOne} alt="headerEllipsOne" />
-    
       </div>
         <div className="header-text__mobile">
           <div className="headerMobile-ellipse">
@@ -51,8 +50,9 @@ const HeaderInfo = ({ title, description, descriptionTwo, info, button, imgUrl,d
         <div className="header_button">{button}</div> 
         </div>
         <div className="header-download__mobile">
+        <img className='download-mobile' src={bntApp} alt="bntApp" />
           <img className='download-mobile' src={bntMarket} alt="bntMarket" />
-          <img className='download-mobile' src={bntApp} alt="bntApp" />
+         
         </div>
        
       </div>

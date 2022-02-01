@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from '../card/Card';
-import cardOne from './cardOne.png';
-import cardTwo from './cardTwo.png';
-import cardThree from './cardThree.png';
+import cardOne from '../../images/cardOne.png'
+import cardTwo from '../../images/cardTwo.png';
+import cardThree from '../../images/cardThree.png';
 import './Support.css';
 const Support = () => {
    const cards = {

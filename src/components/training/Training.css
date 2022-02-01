@@ -66,6 +66,9 @@
   .training__title{
     display: none;
   }
+  .elliseCard{
+    display: none;
+  }
   .training-container {
     
     background-image:none;

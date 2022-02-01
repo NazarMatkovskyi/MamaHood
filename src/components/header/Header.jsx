@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../../UI/button/Button';
 import HeaderInfo from '../headerInfo/HeaderInfo';
-import phoneOne from './phoneOne.png';
-import phoneTwo from './phoneTwo.png';
+import phoneOne from '../../images/phoneOne.png';
+import phoneTwo from '../../images/phoneTwo.png';
 import './Header.css';
 import HeaderSecond from '../headerSecond/HeaderSecond';
 

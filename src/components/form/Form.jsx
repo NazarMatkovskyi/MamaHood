@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import { useForm } from 'react-hook-form';
 import './Form.css';
-import activeBtn from './activeBtn.png';
-import noActiveBtn from './NoActiveBtn.png';
-import ellipseFormOne from './ellipseFormOne.png'
-import ellipseFormTwo from './ellipseFormTwo.png'
-import ellipseFormThree from './ellipseFormThree.png'
-import ellipseFormFour from './ellipseFormFour.png'
+import activeBtn from '../../images/activeBtn.png';
+import noActiveBtn from '../../images/NoActiveBtn.png';
+import ellipseFormOne from '../../images/ellipseFormOne.png'
+import ellipseFormTwo from '../../images/ellipseFormTwo.png'
+import ellipseFormThree from '../../images/ellipseFormThree.png'
+import ellipseFormFour from '../../images/ellipseFormFour.png'
 
 const Form = () => {
   const {
