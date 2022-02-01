@@ -47,10 +47,10 @@
   justify-content: space-between;
 }
 .elliseCard{
-  position: absolute;
-  right: 8%;
-  top: 418%;
-  z-index: -12;
+  position: relative;
+  left: 39.7%;
+  bottom: 210px;
+  z-index: -30;
 }
 .training-frame__itemMobile{
   display: none;

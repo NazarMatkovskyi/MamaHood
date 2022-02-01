@@ -78,8 +78,9 @@ const Training = () => {
   return (
     <div className="training">
       <div className="container training-container">
+     
         <h1 className="training__title">Mamahood</h1>
-        <img className="elliseCard" src={ellipseCard} alt={ellipseCard} />
+       
         <div className="training-content">
           <div className="training-frame_card">
             <div className="training-frame__first-items">
@@ -119,7 +120,9 @@ const Training = () => {
                 text={ellips.ellipsThree.text}
               />
             </div>
+            
           </div>
+          <img className="elliseCard" src={ellipseCard} alt={ellipseCard} />
           {/* For Mobile */}
           <div className="frame__mobile">
             <div className="elipsePostsMobile">

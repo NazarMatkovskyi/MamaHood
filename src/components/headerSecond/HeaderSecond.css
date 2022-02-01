@@ -2,8 +2,8 @@
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size:inherit ;
- max-width: 1440px;
-  margin-left:50px;
+  max-width: 1440px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,7 +20,7 @@
   font-weight: normal;
   width: 533px;
   height: 500px;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 70px;
   font-family: Montserrat;
   line-height: 120%;
@@ -41,66 +41,60 @@
   padding-bottom: 10px;
 }
 .ellipse-one{
-  position: absolute;
-  left: 0;
-  top: 112%;
- 
+  position: relative;
+  left: -141%;
+  top: -12%;
 }
 
 .ellipse-two{
-  position: absolute;
-  left: 0;
-  top: 120%;
-  z-index: -2;
+  position: relative;
+  left: -158%;
+  top: -2%;
+  
 }
 .ellipse-three{
-  position: absolute;
-  left: 0;
-  top: 140%;
-  z-index: -3;
+  position: relative;
+  left: -170%;
+  top: 18%;
 }
 .ellipse-four{
-  position: absolute;
-  left: 0;
-  top: 200%;
-  z-index: -4;
+  position: relative;
+  top: 106%;
+  left: -190%;
 }
 .ellipse-five{
-  position: absolute;
-  right:12% ;
-  top: 117%;
-  z-index: -5;
+  position: relative;
+  left: 90%;
+  bottom: 700px;
+  
  
 }
 .ellipse-six{
-  position: absolute;
-  right: 7%;
-  top: 113%;
-  z-index: -6;
+  position: relative;
+  left: 95%;
+  bottom: 713px
+ 
 }
 .ellipse-seven{
-  position: absolute;
-  right: 2%;
-  top: 120%;
-  z-index: -7;
+  position: relative;
+  left: 90%;
+  bottom: 610px;
+  
 }
 .ellipse-eight{
-  position: absolute;
-  right: 0;
-  top: 176%;
-  z-index: -8;
+  position: relative;
+  left: 83.9%;
+  bottom: 244px;
+
 }
 .ellipse-nine{
-  position: absolute;
-  right: 0;
-  top: 186%;
-  z-index: -9;
+  position: relative;
+  left: 71.5%;
 }
 .ellipse-ten{
-  position: absolute;
-  right: 5%;
-  top: 199%;
-  z-index: -10;
+  position: relative;
+  left: 44%;
+  bottom: 52px
 }
 
 

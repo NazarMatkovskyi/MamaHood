@@ -6,6 +6,8 @@ import footerOneEllipse1 from '../../images/footerOneEllipse1.png'
 import footerOneEllipse2 from '../../images/footerOneEllipse2.png'
 import footerOneEllipse3 from '../../images/footerOneEllipse3.png'
 import footerOneEllipse4 from '../../images/footerOneEllipse4.png'
+// import OvalEllipseOne from '../../images/ovalEllipse.png'
+// import OvalEllipseTwo from '../../images/ovalEllipse.png'
 
 const FooterOne = () => {
   const data = [
@@ -27,6 +29,10 @@ const FooterOne = () => {
                 key={item.title}
                 className="footer-block-content"
             >
+              {/* <div className="elipseFooterOne">
+                <img className='OvalEllipseOne' src={OvalEllipseOne} alt="OvalEllipseOne" />
+                <img className='OvalEllipseTwo' src={OvalEllipseTwo} alt="OvalEllipseTwo" />
+              </div> */}
               <div className="item-title">{item.title}</div>
               <div className="item-subtitle">{item.subtitle}</div>
               <div className="item-description">{item.descriptions}</div>
